@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>TOTKAY.PK</title>
-</head>
-<body>
-    
-</body>
-</html>
+<?php require './includes/header.inc.php'?>
+<?php require './includes/nav.inc.php'?>
+
+<!-- Main Body Start -->
+<main>
+    <h1>Hello</h1>
+</main>
+<!-- Main Body End -->
+
+<?php require './includes/footer.inc.php'?>
