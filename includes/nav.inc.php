@@ -15,10 +15,10 @@
         <div class="row">
             <div class="col-12 mt-2 d-flex flex-row justify-content-between align-items-center">
                 <div class="w-50">
-                    <a href="#" style="width:170px;" class="d-block"><img class="img-fluid" src="./source/media/logo.png" alt="totky.pk"></a>
+                    <a href="./" style="width:170px;" class="d-block"><img class="img-fluid" src="./source/media/logo.png" alt="totky.pk"></a>
                 </div>
                 <div class="w-50 d-flex justify-content-end">
-                    <div class="user-icon p-1"><a href="#"><span><i class="fas fa-user-circle"></i></span></a></div>
+                    <div class="user-icon p-1"><a href="./login.php"><span><i class="fas fa-user-circle"></i></span></a></div>
                     <div id="menu-toggle" class="user-icon p-1 ml-2"><a href="#"><span><i class="fas fa-bars"></i></span></a></div>
                 </div>
             </div>
