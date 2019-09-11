@@ -46,8 +46,6 @@ if (typeof menuBtn === undefined || menuBtn === null) {
 }
 
 //sign-up form toggle
-let btnSignUp = document.querySelector("#sign-up-toggle-2");
-let btnLogIn = document.querySelector("#sign-up-toggle-1");
 let formWrapper = document.querySelector(".form-wrapper");
 let signUpBtns = document.querySelectorAll(".sign-up-toggle");
 
@@ -65,13 +63,5 @@ if (typeof formWrapper === undefined || formWrapper === null) {
         });
       }
     });
-  });
-
-  btnSignUp.addEventListener("click", function() {
-    formWrapper.style.marginRight = "0%";
-  });
-
-  btnLogIn.addEventListener("click", function() {
-    formWrapper.style.marginLeft = "-100%";
   });
 }

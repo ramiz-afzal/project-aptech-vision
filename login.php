@@ -24,16 +24,22 @@
                         <div class="row">
                             <div class="col-6 p-1 text-center">
                                 <button
-                                    id="sign-up-toggle-1"
-                                    class="w-100 sign-up-toggle py-2 btn btn-outline-info vote-btn"
+                                    class="w-100 sign-up-toggle py-2 btn btn-outline-info vote-btn active-main"
+                                    data-toggle="collapse"
+                                    data-target=".multi-collapse"
+                                    aria-expanded="false"
+                                    aria-controls="multiCollapseExample1 multiCollapseExample2"
                                 >
                                     Login
                                 </button>
                             </div>
                             <div class="col-6 p-1 text-center">
                                 <button
-                                    id="sign-up-toggle-2"
-                                    class="w-100 sign-up-toggle py-2 btn btn-outline-info vote-btn active-main"
+                                    class="w-100 sign-up-toggle py-2 btn btn-outline-info vote-btn"
+                                    data-toggle="collapse"
+                                    data-target=".multi-collapse"
+                                    aria-expanded="false"
+                                    aria-controls="multiCollapseExample1 multiCollapseExample2"
                                 >
                                     Sign-up
                                 </button>
@@ -41,29 +47,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="card card-body main-card my-4">
+                <div class="card overflow-hidden card-body main-card my-4">
                     <div class="form-wrapper">
-                        <div id="form-1">
+                        <div
+                            class="collapse show multi-collapse"
+                            id="multiCollapseExample2"
+                        >
                             <form>
                                 <div class="form-group">
                                     <input
                                         type="text"
                                         class="form-control"
-                                        placeholder="Name"
-                                    >
-                                </div>
-                                <div class="form-group">
-                                    <input
-                                        type="email"
-                                        class="form-control"
-                                        placeholder="Email"
-                                    >
-                                </div>
-                                <div class="form-group">
-                                    <input
-                                        type="text"
-                                        class="form-control"
-                                        placeholder="Username"
+                                        placeholder="Email or Username"
                                     >
                                 </div>
                                 <div class="form-group">
@@ -72,22 +67,22 @@
                                         class="form-control"
                                         placeholder="Password"
                                     >
-                                </div>
-                                <div class="form-group">
-                                    <input
-                                        type="password"
-                                        class="form-control"
-                                        placeholder="Confirm Password"
-                                    >
+                                    <small><a
+                                            href="#"
+                                            class="main-color-font text-decoration-none p-1"
+                                        >Forget Password?</a></small>
                                 </div>
                                 <div class="text-center">
                                     <button class="btn btn-outline-info vote-btn w-50">
-                                        SUBMIT
+                                        Log-in
                                     </button>
                                 </div>
                             </form>
                         </div>
-                        <div id="form-2">
+                        <div
+                            class="collapse multi-collapse"
+                            id="multiCollapseExample2"
+                        >
                             <form>
                                 <div class="form-group">
                                     <input
@@ -112,6 +107,13 @@
                                 </div>
                                 <div class="form-group">
                                     <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Phone"
+                                    >
+                                </div>
+                                <div class="form-group">
+                                    <input
                                         type="password"
                                         class="form-control"
                                         placeholder="Password"
@@ -126,7 +128,7 @@
                                 </div>
                                 <div class="text-center">
                                     <button class="btn btn-outline-info vote-btn w-50">
-                                        SUBMIT
+                                        Sign-up
                                     </button>
                                 </div>
                             </form>

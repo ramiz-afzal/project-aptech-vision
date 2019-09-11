@@ -29,7 +29,7 @@
                         </p>
                         <div class="card-body p-1">
                             <div class="container-fluid">
-                                <div class="row">
+                                <div class="row main-color-font">
                                     <div
                                         class="col-4 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
                                         <i class="fas fa-chevron-up"></i>

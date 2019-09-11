@@ -173,18 +173,15 @@ nav {
   color: #aa35f5;
 }
 
-.vote-btn:hover {
-  color: #fff;
-  background-color: #aa35f5;
-  border-color: #aa35f5;
+.vote-btn:hover,
+.vote-btn:active,
+.active-main:active {
+  color: #fff !important;
+  background-color: #aa35f5 !important;
+  border-color: #aa35f5 !important;
 }
 
 .active-main {
-  background-color: #aa35f5;
-  color: #fff;
-}
-
-.active-main:hover {
   background-color: #aa35f5;
   color: #fff;
 }
@@ -198,6 +195,8 @@ nav {
   display: flex;
   flex-direction: row;
   overflow: hidden;
+  align-items: center;
+  transition: all 300ms;
 }
 
 .form-wrapper > div {
