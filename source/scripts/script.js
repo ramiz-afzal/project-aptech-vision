@@ -65,3 +65,57 @@ if (typeof formWrapper === undefined || formWrapper === null) {
     });
   });
 }
+
+// Quill Editor JS Code
+let toolbarOptions = [
+  ["bold", "italic", "underline", "strike"], // toggled buttons
+  [
+    {
+      list: "ordered"
+    },
+    {
+      list: "bullet"
+    }
+  ],
+  [
+    {
+      indent: "-1"
+    },
+    {
+      indent: "+1"
+    }
+  ], // outdent/indent
+  [
+    {
+      direction: "rtl"
+    }
+  ], // text direction
+
+  [
+    {
+      size: ["small", false, "large", "huge"]
+    }
+  ],
+  [
+    {
+      color: []
+    },
+    {
+      background: []
+    }
+  ], // dropdown with defaults from theme
+  [
+    {
+      align: []
+    }
+  ],
+
+  ["clean"] // remove formatting button
+];
+
+let quill = new Quill("#editor", {
+  modules: {
+    toolbar: toolbarOptions
+  },
+  theme: "snow"
+});

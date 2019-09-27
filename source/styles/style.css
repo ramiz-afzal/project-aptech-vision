@@ -202,3 +202,12 @@ nav {
 .form-wrapper > div {
   min-width: 100%;
 }
+
+#editor {
+  min-height: 50vh;
+}
+
+.dropdown-menu:hover .vote-btn {
+  color: #fff !important;
+  background-color: #aa35f5 !important;
+}

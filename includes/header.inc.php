@@ -11,7 +11,7 @@
         http-equiv="X-UA-Compatible"
         content="ie=edge"
     >
-    <title>TOTKAY.PK</title>
+    <title>TOTKY.PK</title>
 
     <!-- Bootstrap CSS -->
     <link
@@ -32,6 +32,16 @@
     <!-- Font-Awesome Icons -->
     <script src="https://kit.fontawesome.com/34071423ab.js"></script>
     <!-- Font-Awesome Icons -->
+
+
+    <!-- Theme included stylesheets -->
+    <link
+        href="//cdn.quilljs.com/1.3.6/quill.snow.css"
+        rel="stylesheet"
+    >
+
+    <!-- Main Quill library -->
+    <script src="//cdn.quilljs.com/1.3.6/quill.js"></script>
 </head>
 
 <body>
