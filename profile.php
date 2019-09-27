@@ -6,6 +6,24 @@
     <div class="container my-4">
         <div class="row">
             <div class="col-12 col-lg-9 pr-3 pr-lg-2">
+
+                <!-- Create post section start -->
+                <div class="card main-card my-2 mb-4">
+                    <div class="card-body">
+                        <div class="d-flex flex-column">
+                            <span class="main-color-font h4">
+                                Got something to share?
+                            </span>
+                            <a
+                                href="./create-post.php"
+                                class="btn btn-outline-info btn-lg vote-btn text-uppercase font-weight-light w-25 mt-3"
+                            >CREATE POST</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Create post section end -->
+
+
                 <!-- my posts section start -->
                 <div class="card main-card my-2 mb-4">
                     <div class="card-body">
