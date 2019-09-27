@@ -11,24 +11,167 @@
                     <div class="card-body">
                         <div class="container">
                             <div class="row">
+
                                 <div
-                                    class="col-12 col-md-6 col-lg-4 border d-flex flex-column justify-content-center align-items-center">
-                                    <div class="d-flex justify-content-center w-50">
+                                    class="col-12 text-center d-flex flex-column align-items-center border rounded p-2">
+                                    <div style="width:150px;">
                                         <img
                                             src="./source/media/category_icons/profile.jpg"
                                             alt="profile-image"
                                             class="img-fluid"
                                         >
                                     </div>
-                                    <div class="border rounded p-1 m-1">
+                                    <input
+                                        type="file"
+                                        name=""
+                                        id=""
+                                        class="my-3 border p-1 rounded"
+                                    >
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <div class="form-group">
+                                        <label
+                                            for=""
+                                            class=""
+                                        >
+                                            <small class="main-color-font">Name:</small>
+                                        </label>
                                         <input
-                                            type="file"
+                                            type="text"
                                             name=""
                                             id=""
-                                            value="Change picture"
+                                            class="form-control"
                                         >
                                     </div>
                                 </div>
+
+                                <div class="col-12 col-md-6">
+                                    <div class="form-group">
+                                        <label
+                                            for=""
+                                            class=""
+                                        >
+                                            <small class="main-color-font">Sub title:</small>
+                                        </label>
+                                        <input
+                                            type="text"
+                                            name=""
+                                            id=""
+                                            class="form-control"
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <div class="form-group">
+                                        <label
+                                            for=""
+                                            class=""
+                                        >
+                                            <small class="main-color-font">Date of Birth:</small>
+                                        </label>
+                                        <input
+                                            type="date"
+                                            name=""
+                                            id=""
+                                            class="form-control"
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <div class="form-group">
+                                        <label
+                                            for=""
+                                            class=""
+                                        >
+                                            <small class="main-color-font">Phone:</small>
+                                        </label>
+                                        <input
+                                            type="number"
+                                            name=""
+                                            id=""
+                                            class="form-control"
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <div class="form-group">
+                                        <label
+                                            for=""
+                                            class=""
+                                        >
+                                            <small class="main-color-font">Email:</small>
+                                        </label>
+                                        <input
+                                            type="email"
+                                            name=""
+                                            id=""
+                                            class="form-control"
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <div class="form-group">
+                                        <label
+                                            for=""
+                                            class=""
+                                        >
+                                            <small class="main-color-font">Web:</small>
+                                        </label>
+                                        <input
+                                            type="text"
+                                            name=""
+                                            id=""
+                                            class="form-control"
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label
+                                            for=""
+                                            class=""
+                                        >
+                                            <small class="main-color-font">Address:</small>
+                                        </label>
+                                        <input
+                                            type="text"
+                                            name=""
+                                            id=""
+                                            class="form-control"
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label
+                                            for=""
+                                            class=""
+                                        >
+                                            <small class="main-color-font">Bio:</small>
+                                        </label>
+                                        <textarea
+                                            name=""
+                                            id=""
+                                            rows="10"
+                                            class="w-100 border rounded"
+                                        ></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 text-center">
+                                    <button
+                                        type="submit"
+                                        class="btn btn-outline-info vote-btn w-25"
+                                    >Submit</button>
+                                </div>
+
                             </div>
                         </div>
                     </div>
